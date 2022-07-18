@@ -1,0 +1,9 @@
+@charset "utf-8";
+*{margin: 0px;padding: 0px;outline: none;text-decoration: none;list-style: none;box-sizing: border-box;}
+:is(::after,::before){margin: 0px;padding: 0px;box-sizing: border-box;}
+body{min-height: 100vh;margin:0px auto;background-color:#f1f1f1;font-family: Arial, Helvetica, sans-serif;background-color:#40BAED;  }
+body #container{ position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%); display: flex;justify-content: center;align-items: center;}
+body #container .list{display: flex;justify-content: center;align-items: center;}
+body #container .list .item{height: 87px; width:87px;margin: 10px;background-color:#070242;padding: 15px;border-radius: 17px;display: flex;flex-direction: column;align-items: center;justify-content: center;pointer-events: none;}
+body #container .list .item :is(span, label){color: #fff;}
+body #container .list .item span{font-size: 27px;margin-bottom: 5px;}
